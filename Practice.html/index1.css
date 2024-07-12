@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    /* justify-content: space-around; */
+    
+}
+.home{
+    width: 100px;
+}
+.contect{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    margin: 200px;
+    width: 600px;
+  
+}
+.head{
+    width: 200px;
+ 
+   height: 100px;
+   
+}
+.more{
+    margin-top: 50px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(42, 41, 41);
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

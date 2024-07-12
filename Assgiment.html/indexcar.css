@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#car{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(192, 16, 16);
+    border-radius: 10px; 
+    margin-top: 300px;
+ 
+   animation-name: carmoving;
+   animation-duration: 4s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+   
+}
+@keyframes carmoving {
+   0%{ transform: translatex(-250px);
+   
+   }
+   100%{
+    transform: translatex(1500px);
+   }
+    
+}
+.one{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: black;
+}
+.two{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: black;
+}
+.car{
+    display: flex;
+width: 200px;
+justify-content: space-around;
+padding-top: 80px;
+}
+.background{
+    height: 150px;
+    width: 1500px;
+    background-color: rgb(40, 40, 40);
+    padding-left: 50px;
+    
+   
+   
+    
+}
+body{
+    background-color: rgb(29, 29, 30);
+   
+    
+}
+

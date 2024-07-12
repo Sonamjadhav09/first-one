@@ -1,0 +1,39 @@
+.nav{
+    height: 60px; 
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     color: white;
+}
+#lobo{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-right: 30px;
+}
+a{
+    padding-left: 30px;
+}
+.class{
+    width: 1200px;
+    display: flex;
+    /* padding-left: 0%; */
+
+}
+/* .image{
+   padding-top: 30px;
+  padding-left: 500px ;
+  padding-bottom: 30px;
+    
+
+} */
+  
+
+.footer{
+    background-color: black;
+  color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+}

@@ -1,0 +1,218 @@
+
+/* *{
+   padding: 0px;
+   margin: 0px;
+} */
+
+.navbar{
+   
+   /* border: solid rgb(21, 18, 18); */
+   height: 40px;
+   width: 1500px;
+   padding-top: 20px;
+   background-color: rgb(40, 40, 40);
+   color: aliceblue;
+
+   
+   
+ 
+ 
+}
+.child{ 
+   width: 400px;
+   
+  
+  margin-left: 500px;
+  display: flex;
+  
+   justify-content: center;
+   justify-content: space-between;
+    
+   
+}
+
+
+
+
+ .name{
+   display: flex;
+   justify-content: center;
+   padding-right: 100px;
+  
+ }
+ #name{
+  
+    padding-left: 400px;
+ }
+ .skill{
+    display: flex;
+    width: 1500px;
+   flex-direction:row;
+    justify-content:space-between
+    ;
+   
+   
+ }
+ 
+   .imgimg{
+    height: 200px;
+    width: 200px;
+    margin-left: 600px;
+   border-radius: 50%;
+  margin-top: 30px;
+   }
+   .send{
+    height: 15px;
+    width: 180px;
+    border: solid rgb(88, 86, 86);
+    
+    color: rgb(20, 21, 22);
+    padding-left: 200px;
+    background-color: rgb(229, 228, 232);
+    margin-top: 5px;
+     
+   }
+  .imgone{
+    height: 460px;
+    width: 600px;
+    
+  }
+  .imgtwo{
+    height: 460px;
+    width: 600px;
+    
+  }
+
+  .imgthree{
+    height: 460px;
+    width: 600px;
+   } 
+   .project{
+      display: flex;
+      justify-content: left;
+      /* margin-left: 200px; */
+      justify-content: space-between;
+     
+   }
+   .contect{
+      margin-left: 500px;
+   }
+   .css{
+      width: 330px;
+    height: 6px;
+   border: solid rgb(219, 221, 223);
+    border-radius:50px;
+    background-color:rgb(219, 221, 223);
+
+   }
+   .csschild{
+      background:rgb(30, 165, 45); ;
+   width: 270px;
+   height: 9.5px;
+  /* margin-left:250px; */
+  border-radius:50px ;
+
+   }
+   .java{
+      width: 330px;
+    height: 6px;
+   border: solid rgb(219, 221, 223);
+    border-radius:50px;
+    background-color:rgb(219, 221, 223);
+
+   }
+   .javachild{
+      background:rgb(30, 165, 45); ;
+   width: 250px;
+   height: 9.5px;
+  /* margin-left:250px; */
+  border-radius:50px ;
+
+   }
+   .react{
+      width: 330px;
+    height: 6px;
+   border: solid rgb(219, 221, 223);
+    border-radius:50px;
+    background-color:rgb(219, 221, 223);
+
+   }
+   .reactchild{
+      background:rgb(30, 165, 45); ;
+   width: 200px;
+   height: 9.5px;
+  /* margin-left:250px; */
+  border-radius:50px ;
+   }
+   .html{
+      width: 330px;
+      height: 6px;
+     border: solid rgb(219, 221, 223);
+      border-radius:50px;
+      background-color:rgb(219, 221, 223);
+      
+   }
+   .htmlchild{
+      background:rgb(30, 165, 45); ;
+     width: 300px;
+     height: 9.5px;
+    /* margin-left:250px; */
+    border-radius:50px ;
+   }
+   .node{
+      width: 1500px;
+      height: 6px;
+     border: solid rgb(219, 221, 223);
+      border-radius:50px;
+      background-color:rgb(219, 221, 223);
+
+   }
+   .nodechild{
+      background:rgb(30, 165, 45); ;
+     width: 1000px;
+     height: 9.5px;
+    /* margin-left:250px; */
+    border-radius:50px ;
+
+   }
+   footer{
+      height: 50px;
+      width: 1500px;
+      /* background-color: black; */
+      display: flex;
+      justify-content: center;
+      background-color: rgb(62, 61, 61);
+     
+      color: aliceblue;
+      margin-top: 20px;
+      align-items: center;
+     
+   }
+  #facebook {
+    
+      width: 50px;
+     
+
+   }
+   #twitter{
+    
+      width: 50px;
+     
+
+   }
+   #linkedin {
+    
+      width: 50px;
+     
+
+   }
+   #github {
+    
+      width: 50px;
+     
+
+   }
+  
+   
+ 
+   

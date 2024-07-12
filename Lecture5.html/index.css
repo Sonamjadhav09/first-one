@@ -1,0 +1,74 @@
+a{
+    background-color: blueviolet;
+}
+.two{
+    background-color: aquamarine;
+}
+/* a[ href='http://google.com']
+    {
+    
+    background-color: brown;
+} */
+    /* start with 'http' */
+ a[href^='http']{
+    background-color: blue;
+ }
+ /* ending with 'com' */
+ a[href$='com']{
+    background-color: chartreuse;
+ }
+     
+ a[href*='facebook']{
+    background-color: chocolate;
+ }
+ .one{
+    background-color: black;
+ }
+ /* *{
+    background-color: blueviolet;
+ } */
+  /* disended combinetor selector */
+  /* div p{
+    background-color: brown;
+  }
+  ol>li{
+    border: 2px solid black;
+  } */
+   div{
+    background-color: black;
+    height: 150px;
+width: 150px;
+transition: 2s;
+   }
+   div:hover{
+    /* background-color: blueviolet; */
+    background:linear-gradient(purple,yellow,skyblue);
+    border-radius:100%;
+   }
+   /* li:first-chlid{
+    background-color: aquamarine;
+   } */
+   li:nth-of-type(even){
+    background-color: blueviolet;
+   }
+   #parent{
+      height: 100px;
+      width: 
+      100px;
+      background-color: aqua;
+   }
+   #child{
+      height: 50px;
+      width: 50px;
+      background-color: blueviolet;
+
+   } 
+    #parent{
+      height: 100vh;
+      width: 
+      100wh;
+      background-color: aqua;
+   }
+   li{
+    font-size: 2em;
+   }

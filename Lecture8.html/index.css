@@ -1,0 +1,19 @@
+.container{
+    height:2000px;
+    padding:200px;
+    border: 10px solid rgb(18, 17, 18);
+
+
+
+}
+.box{
+    border: 2px solid peru;   
+     padding: 20px;
+
+    background-color:rgb(166, 68, 26);
+    position: sticky;
+    top: 30px;
+   display: flex;
+   justify-content: center;
+   
+}
