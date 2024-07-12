@@ -28,6 +28,14 @@ let to =score==100;
 console.log(to);
 console.log(false==='');
 console.log(false==='false');
+// if variable is not defind
+console.log(a)//error
+// if variable id definde but value not assign
+ var a;
+ console.log(a)// undefined
+ var a=null;
+ console.log(a);
+
 
 
 
